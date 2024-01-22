@@ -1,10 +1,5 @@
 #!/bin/bash
 
-su - root
-apt install sudo git -y
-usermod -aG sudo rook
-exit
-
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
