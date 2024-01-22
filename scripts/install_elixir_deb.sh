@@ -10,4 +10,4 @@ make clean compile
 
 # Add bins to path
 cd
-printf "\nexport PATH=%s':/usr/bin/elixir-1.15.7/bin'\n" $PATH > .bashrc
+printf "\nexport PATH=%s':/usr/bin/elixir-1.15.7/bin'\n" $PATH > /etc/profile
