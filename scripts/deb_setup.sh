@@ -16,3 +16,5 @@ sudo apt-get update
 
 # Docker
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin  -y
+# add rook to docker group
+sudo usermod -aG docker rook
